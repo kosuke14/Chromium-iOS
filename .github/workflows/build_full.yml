@@ -1,12 +1,6 @@
-name: Build iOS IPA
+name: Build full and upload ipa
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
   workflow_dispatch:
 
 jobs:
